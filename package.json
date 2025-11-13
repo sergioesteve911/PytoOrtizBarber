@@ -31,4 +31,10 @@
     "tailwindcss": "^4.1.16",
     "vite": "^7.1.7"
   }
+  "homepage": "https://sergioesteve911.github.io/PytoOrtizBarber",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+  }
+
 }
