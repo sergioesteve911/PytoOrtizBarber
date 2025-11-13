@@ -32,12 +32,22 @@
     "tailwindcss": "^4.1.16",
     "vite": "^7.1.7"
   },
-  "homepage": "https://sergioesteve911.github.io/PytoOrtizBarber",
+  
+  "name": "ortizbarber",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://sergioesteve911.github.io/OrtizBarber",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "gh-pages": "^6.0.0"
+  }
 }
 
